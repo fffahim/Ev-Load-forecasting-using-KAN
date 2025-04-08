@@ -1,0 +1,47 @@
+{
+    "caltech" : {
+        "start" : "2018-11-01 00:00:00",
+        "end" : "2020-02-29 23:59:59",
+        "path" : "data/caltech.csv",
+        "save_path" : "data/caltech_processed.csv",
+        "col" : ["Energy", "Day of week", "Week Day", "Day of month", "Season", "Peak hour level", "Season"],
+        "threshold_week" : [0.40, 0.70],
+        "threshold_weekend" : [0.40, 0.70],
+        "peak_hour_week_l0" : [0, 1, 2, 3, 4, 5, 6, 7, 22, 23],
+        "peak_hour_week_l1" : [15, 16, 17, 18, 19, 20, 21],
+        "peak_hour_week_l2" : [8, 9, 10, 11, 12, 13, 14],
+        "peak_hour_weekend_l0" : [0, 1, 2, 3, 4, 5, 6, 7, 22, 23],
+        "peak_hour_weekend_l1" : [8, 9, 17, 18, 19, 20, 21],
+        "peak_hour_weekend_l2" : [10, 11, 12, 13, 14, 15, 16]
+    },
+    "jpl" : {
+        "start" : "2018-11-01 00:00:00",
+        "end" : "2020-02-29 23:59:59",
+        "col" : ["Energy", "Day of week", "Week Day", "Day of month", "Season", "Peak hour level", "Season"],
+        "path" : "data/jpl.csv",
+        "save_path" : "data/jpl_processed.csv",
+        "threshold_week" : [0.40, 0.70],
+        "threshold_weekend" : [0.40, 0.70],
+        "peak_hour_week_l0" : [0, 1, 2, 3, 4, 19, 20, 21, 22, 23],
+        "peak_hour_week_l1" : [5, 6, 14, 15, 16, 17, 18],
+        "peak_hour_week_l2" : [7, 8, 9, 10, 11, 12, 13],
+        "peak_hour_weekend_l0" : [0, 1, 2, 3, 4, 5, 20, 21, 22, 23],
+        "peak_hour_weekend_l1" : [6, 7, 8, 16, 17, 18, 19],
+        "peak_hour_weekend_l2" : [9, 10, 11, 12, 13, 14, 15]
+    },
+    "palo_alto" : {
+        "start" : "2016-11-01 00:00:00",
+        "end" : "2020-02-29 23:59:59",
+        "col" : ["Energy", "Day of week", "Week Day", "Day of month", "Season", "Peak hour level", "Season"],
+        "path" : "data/palo_alto.csv",
+        "save_path" : "data/palo_alto_processed.csv",
+        "threshold_week" : [0.40, 0.70],
+        "threshold_weekend" : [0.40, 0.70],
+        "peak_hour_week_l0" : [0, 1, 2, 3, 4, 19, 20, 21, 22, 23],
+        "peak_hour_week_l1" : [5, 6, 14, 15, 16, 17, 18],
+        "peak_hour_week_l2" : [7, 8, 9, 10, 11, 12, 13],
+        "peak_hour_weekend_l0" : [0, 1, 2, 3, 4, 5, 20, 21, 22, 23],
+        "peak_hour_weekend_l1" : [6, 7, 8, 16, 17, 18, 19],
+        "peak_hour_weekend_l2" : [9, 10, 11, 12, 13, 14, 15]
+    }
+}
